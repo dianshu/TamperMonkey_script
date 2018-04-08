@@ -2,9 +2,9 @@
 // @name         删除伯乐在线右侧边栏
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  删除伯乐在线python模块右侧边栏
+// @description  删除伯乐在线文章右侧边栏
 // @author       feishicheng
-// @match        http://python.jobbole.com/*
+// @match        http://*.jobbole.com/*
 // @grant        none
 // ==/UserScript==
 
