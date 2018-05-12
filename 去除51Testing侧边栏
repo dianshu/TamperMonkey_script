@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name         51Testing去除侧边栏
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        http://www.51testing.com/html/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    $('.two_right').remove();
+    var width = $('.content_two').css('width');
+    $('.left_jtwz').css('width', width);
+    $('.two_js').css('width', width);
+    $('.column_jtwz').css('width', width);
+})();
